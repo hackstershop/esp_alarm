@@ -55,7 +55,6 @@ void loop() {
    }
        WiFiClient client;
         const int httpPort = 80;
-        //String url = "/input.php";
  
         if (client.connect(host, httpPort)){
           delay(10);
